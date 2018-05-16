@@ -1,7 +1,7 @@
 <template>
   <view>
     <view class="index-hd">
-      <image class="index-logo" src="https://s10.mogucdn.com/mlcdn/c45406/171122_5l92i48kb80j1fkha1fh1cd3h43i5_200x200.png"></image>
+      <image class="index-logo" src="https://ue.17173cdn.com/a/beeui/2018/img/user-empty.png"></image>
       <view class="index-desc">BeeUI-小程序</view>
     </view>
 
@@ -28,7 +28,7 @@ export default {
 }
 .index-bd {
   padding: 20rpx 30rpx;
-  background-color:cadetblue;
+  background-color: #ff5c00;
   color: #fff;
   text-align: center;
 }
