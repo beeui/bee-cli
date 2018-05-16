@@ -64,13 +64,13 @@ $ bee publish
 在小程序项目中安装一个组件，这里用 [BeeUI](http://ued.local.17173.com/gitlab/wxc/beeui) 的 loading 组件举例：
 
 ``` bash
-$ Bee install @173/wxc-loading
+$ bee install @173/wxc-loading
 ```
 
 - **更新组件**
 
 ``` bash
-$ Bee update @173/wxc-loading
+$ bee update @173/wxc-loading
 ```
 
 ## Bee 使用交流群
