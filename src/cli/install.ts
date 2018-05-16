@@ -12,7 +12,7 @@ export namespace InstallCommand {
    */
   export interface Options {
     /**
-     * 包名列表，如：['@minui/wxc-loading'、'@minui/wxc-tab']
+     * 包名列表，如：['@173/wxc-loading'、'@173/wxc-tab']
      *
      * @type {string []}
      * @memberof Options
@@ -84,10 +84,10 @@ export default {
     '--help': () => {
       new CLIExample('install')
         .group('安装loading组件')
-        .rule('@minui/wxc-loading')
+        .rule('@173/wxc-loading')
 
         .group('支持英文逗号分隔，来同时安装多个组件')
-        .rule('@minui/wxc-loading,@minui/wxc-loading')
+        .rule('@173/wxc-loading,@173/wxc-loading')
     }
   },
   async action (name: string, cliOptions: InstallCommand.CLIOptions) {

@@ -1,8 +1,6 @@
 <template>
-  <view>
-    <!-- wxp template -->
-    <page></page>
-  </view>
+  <!-- wxp template -->
+  <page></page>
 </template>
 
 <script>
@@ -13,7 +11,7 @@
         backgroundTextStyle: 'dark',
         backgroundColor: '#efefef',
         navigationBarBackgroundColor: '#ffffff',
-        navigationBarTitleText: 'Min 小程序示例项目',
+        navigationBarTitleText: 'Bee 组件库示例项目',
         navigationBarTextStyle: 'black'
       },
       networkTimeout: {

@@ -6,11 +6,16 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/meili/minui/tree/master/packages/<%= pkgName %>"
+    "url": "http://ued.local.17173.com/gitlab/wxc/beeui/tree/master/packages/<%= pkgName %>"
   },
-  "author": "",
+  "publishConfig": {
+    "registry": "http://npm.local.17173.com"
+  },
+  "author": "changjianwang@cyou-inc.com",
+  "dependencies": {
+  },
   "license": "MIT",
-  "minConfig": {
+  "beeConfig": {
     "component": true
   }
 }

@@ -137,7 +137,7 @@ export namespace InitCommand {
     npmScope?: string
 
     /**
-     * 带上 '@' 完整的 scope 名称，例如 @minui
+     * 带上 '@' 完整的 scope 名称，例如 @173
      *
      * @type {string}
      * @memberof Options
@@ -279,10 +279,10 @@ export class InitCommand {
       return
     }
 
-    // 执行 min new 创建
+    // 执行 bee new 创建
     log.newline()
     log.msg(LogType.INFO, '准备为您创建一个新的组件')
-    log.msg(LogType.RUN, '命令：min new')
+    log.msg(LogType.RUN, '命令：bee new')
     let newCommand = new NewCommand({
       newType: NewType.Package
     })
@@ -302,11 +302,11 @@ export class InitCommand {
 
   private async minBuild () {
     let { proPath } = this.options
-    // 执行 min build 构建
+    // 执行 bee build 构建
     log.newline()
-    log.msg(LogType.RUN, '命令：min build')
+    log.msg(LogType.RUN, '命令：bee build')
     log.msg(LogType.INFO, '编译中, 请耐心等待...')
-    await exec('min', ['build'], true, {
+    await exec('bee', ['build'], true, {
       cwd: proPath
     })
   }

@@ -14,7 +14,7 @@ export namespace PublishCommand {
    */
   export interface Options {
     /**
-     * 包名 或 组件名，如：@minui/wxc-loading 或 wxc-loading
+     * 包名 或 组件名，如：@173/wxc-loading 或 wxc-loading
      *
      * @type {string}
      * @memberof Options
@@ -54,7 +54,7 @@ export class PublishCommand {
     let { pkgName, lernaOptions = {} } = this.options
     let publishArgs = {
       exact: true,
-      message: 'Publish by MinDev'
+      message: 'Publish by BeeDev'
     }
 
     if (pkgName) {
@@ -105,8 +105,8 @@ export default {
   async action (pkgName: string, cliOptions: PublishCommand.CLIOptions) {
     util.overrideNpmLog()
 
-    // loading => @minui/wxc-loading
-    // wxc-loading => @minui/wxc-loading
+    // loading => @173/wxc-loading
+    // wxc-loading => @173/wxc-loading
     pkgName = pkgName ? util.getRealPkgNameWithScope(pkgName) : ''
 
     // 获取 answers

@@ -9,10 +9,10 @@
   "author": "<%= author %>",<% } %>
   "license": "MIT",
   "dependencies": {<% if (useExample) { %>
-    "@minui/wxc-example": "^1.0.0",
-    "@minui/wxc-example-demo": "^1.0.0",
-    "@minui/wxc-example-md": "^1.0.0",
-    "@minui/wxc-example-menu": "^1.0.0"<% } %>
+    "@173/wxc-example": "^1.0.0",
+    "@173/wxc-example-demo": "^1.0.0",
+    "@173/wxc-example-md": "^1.0.0",
+    "@173/wxc-example-menu": "^1.0.0"<% } %>
   },
   "devDependencies": {
     "babel-plugin-syntax-export-extensions": "^6.13.0",
@@ -21,7 +21,7 @@
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-preset-env": "^1.6.1"
   },
-  "minConfig": {<% if (projectType) { %>
+  "beeConfig": {<% if (projectType) { %>
     "projectType": "<%= projectType %>"<% } %>
   }
 }

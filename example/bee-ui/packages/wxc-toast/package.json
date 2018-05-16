@@ -1,16 +1,16 @@
 {
   "name": "wxc-toast",
   "version": "1.0.0",
-  "description": "MinUI 小程序组件 - 提示",
+  "description": "BeeUI 小程序组件 - 提示",
   "main": "dist/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/meili/minui/tree/master/packages/wxc-toast"
+    "url": "http://ued.local.17173.com/gitlab/wxc/beeui/tree/master/packages/wxc-toast"
   },
   "author": "",
   "license": "MIT",
-  "minConfig": {
+  "beeConfig": {
     "component": true
   }
 }

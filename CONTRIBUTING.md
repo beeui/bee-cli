@@ -7,13 +7,13 @@
 
 
 * BUG 上报
-如果 Min 不工作或者异常，确认是 Min 本身问题并且在 Issue 中搜索未找到答案时，欢迎提 Issue 讨论。
+如果 Bee 不工作或者异常，确认是 Bee 本身问题并且在 Issue 中搜索未找到答案时，欢迎提 Issue 讨论。
 
 * 新功能支持
-如果你觉得 Min 存在不足的地方，或者有更好的 idea，欢迎提 Issue 讨论。
+如果你觉得 Bee 存在不足的地方，或者有更好的 idea，欢迎提 Issue 讨论。
 
 * 问题讨论
-如果你对 Min 存在疑问或者不确定的地方，欢迎提 Issue 讨论。
+如果你对 Bee 存在疑问或者不确定的地方，欢迎提 Issue 讨论。
 
 
 ## Pull requests
@@ -22,9 +22,9 @@
 
 ``` bash
 # Download code
-git clone https://github.com/meili/min-cli.git
+git clone http://ued.local.17173.com/gitlab/wxc/bee-cli.git
 
-cd min-cli
+cd bee-cli
 
 # Start
 npm install

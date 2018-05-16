@@ -1,8 +1,8 @@
 {
-  "name": "min-weapp",
-  "description": "Min 小程序示例，帮助新手快速入门的一个示例项目",
+  "name": "bee-weapp",
+  "description": "Bee 小程序示例，帮助新手快速入门的一个示例项目",
   "version": "1.0.0",
-  "author": "lingxiao",
+  "author": "",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -12,7 +12,7 @@
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-preset-env": "^1.6.1"
   },
-  "minConfig": {
+  "beeConfig": {
     "projectType": "application"
   }
 }

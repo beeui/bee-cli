@@ -13,10 +13,10 @@ export function filterNpmScope (scope: string = '') {
   if (scope === '') {
     return ''
   }
-  if (!scope.startsWith('@')) { // minui => @minui
+  if (!scope.startsWith('@')) { // 173 => @173
     scope = `@${scope}`
   }
-  if (!scope.endsWith('/')) { // @minui => @minui/
+  if (!scope.endsWith('/')) { // @173 => @173/
     scope = `${scope}/`
   }
   return scope

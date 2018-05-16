@@ -1,11 +1,11 @@
 # wxc-toast
 
-> MinUI 小程序组件 - 提示
+> BeeUI 小程序组件 - 提示
 
 ## Install
 
 ``` bash
-$ min install wxc-toast
+$ bee install wxc-toast
 ```
 
 

@@ -45,7 +45,7 @@ export namespace Request {
     isMain?: boolean,
 
     /**
-     * 是否为发布组件，它仅用于 min publish 发布组件传入真值，请求依赖的目标路径将保留 src 部分，它不做dest路径替换
+     * 是否为发布组件，它仅用于 bee publish 发布组件传入真值，请求依赖的目标路径将保留 src 部分，它不做dest路径替换
      *
      * @type {boolean}
      * @memberof Options

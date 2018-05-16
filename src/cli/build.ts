@@ -57,7 +57,7 @@ export class BuildCommand {
   }
 
   /**
-   * 编译 Min 项目项目
+   * 编译 Bee 项目项目
    *
    */
   private async buildMinProject () {
@@ -93,7 +93,7 @@ export class BuildCommand {
     }
 
     if (pkgNames.length === 0) {
-      log.error(`Min Build，没有需要编译的组件`)
+      log.error(`Bee Build，没有需要编译的组件`)
       return
     }
 

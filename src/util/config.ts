@@ -21,7 +21,7 @@ const CUSTOM_CONFIG_MEMBER: string[] = [
   'dest',// 编译后的路径
   'alias', // 别名，如components => src/components
   'prefix',// 前缀，如wxc-
-  'npm.scope',// 作用域名，如@minui
+  'npm.scope',// 作用域名，如@173
   'npm.dest',// npm编译后的路径，如dist/packages
   'projectType'// 项目类型，如component 和 application
 ]
@@ -48,14 +48,14 @@ function getCustomConfig (cwd: string = systemConfig.cwd): { [key: string]: Cust
   const filePath = getCustomConfigFilePath(cwd)
 
   let customConfigFromPkg: CustomConfig = {} // for package.json
-  let customConfigFromFile: CustomConfig = {} // for min.config.json
+  let customConfigFromFile: CustomConfig = {} // for bee.config.json
 
   // in package.json
   if (fs.existsSync(pkgPath)) {
-    customConfigFromPkg = _.pick(fs.readJsonSync(pkgPath)['minConfig'] || {}, CUSTOM_CONFIG_MEMBER) as CustomConfig
+    customConfigFromPkg = _.pick(fs.readJsonSync(pkgPath)['beeConfig'] || {}, CUSTOM_CONFIG_MEMBER) as CustomConfig
   }
 
-  // in min.config.json
+  // in bee.config.json
   if (fs.existsSync(filePath)) {
     customConfigFromFile = _.pick(fs.readJsonSync(filePath), CUSTOM_CONFIG_MEMBER) as CustomConfig
   }
@@ -79,7 +79,7 @@ let scopeAliasMap = {}
  */
 function convertConfig (defaultConfig: Config, customConfig: CustomConfig = {}) {
 
-  // merge defaultConfig and minConfig
+  // merge defaultConfig and beeConfig
   let config = _.merge({}, defaultConfig, customConfig)
 
   function engine (rootConfig: Config, childConfig = rootConfig) {
@@ -186,7 +186,7 @@ export const config = {
     // 将 新的配置 合并到 自定义文件配置里
     _.merge(customConfigFromFile, newConfig || {})
 
-    // 将 package.json 和 min.config.json 配置更新到 customConfig
+    // 将 package.json 和 bee.config.json 配置更新到 customConfig
     _.merge(customConfig, customConfigFromPkg, customConfigFromFile)
 
     // 将 defaultConfig 和 customConfig 合并到 config

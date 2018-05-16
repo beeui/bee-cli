@@ -157,7 +157,7 @@ export class Xcx {
   }
 
   /**
-   * 编译 packages 下的组件，仅用于 min publish
+   * 编译 packages 下的组件，仅用于 bee publish
    *
    * @memberof Xcx
    */

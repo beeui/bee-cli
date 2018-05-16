@@ -2,7 +2,7 @@ export interface Config extends CustomConfig {
   title: string
   cli: string
   filename: string
-  projectType: string // in customConfig. include min.config.json and minConfig of package.json
+  projectType: string // in customConfig. include bee.config.json and beeConfig of package.json
   cwd: string
   prefix: string
   src: string
@@ -121,7 +121,7 @@ export interface CustomConfig {
   } // 别名，如components => src/components
   prefix?: string// 前缀，如wxc-
   npm?: {
-    scope: string // 作用域名，如@minui
+    scope: string // 作用域名，如@173
     dest: string // npm编译后的路径，如dist/packages
   }
   projectType?: string

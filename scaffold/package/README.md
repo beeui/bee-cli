@@ -5,7 +5,7 @@
 ## Install
 
 ``` bash
-$ min install <%= npmScopeStr %><%= pkgName %>
+$ bee install <%= npmScopeStr %><%= pkgName %>
 ```
 <% if (false) { %>
 ## Usage
