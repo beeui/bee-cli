@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/beeui/bee-cli"
+    "url": "http://ued.local.17173.com/gitlab/wxc/bee-cli"
   },
   "publishConfig": {
     "registry": "http://npm.local.17173.com"
