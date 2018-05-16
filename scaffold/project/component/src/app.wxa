@@ -10,7 +10,7 @@
       window: {
         backgroundTextStyle: 'dark',
         backgroundColor: '#efefef',
-        navigationBarBackgroundColor: '#ffffff',
+        navigationBarBackgroundColor: '#fdcd00',
         navigationBarTitleText: '<%= title %>',
         navigationBarTextStyle: 'black'
       },
