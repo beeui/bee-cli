@@ -98,8 +98,8 @@ const config: Config = {
       // 'postcss': () => {}
     },
     unit: {
-      px2rpx: true,
-      rem2rpx: true
+      px2rpx: false,
+      rem2rpx: false
     },
     bem: {
       use: true,
