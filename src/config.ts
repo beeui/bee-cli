@@ -5,8 +5,8 @@ const scope = '@173'
 const config: Config = {
   title: 'BeeUI',
   cli: 'bee',
-  filename: 'bee.config.json',
-  projectType: '', // in customConfig. include bee.config.json and beeConfig of package.json
+  filename: 'min.config.json',
+  projectType: '', // in customConfig. include min.config.json and minConfig of package.json
   cwd: process.cwd(),
   prefix: 'wxc',
   src: 'src',

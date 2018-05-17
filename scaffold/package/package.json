@@ -15,7 +15,7 @@
   "dependencies": {
   },
   "license": "MIT",
-  "beeConfig": {
+  "minConfig": {
     "component": true
   }
 }

@@ -2,7 +2,7 @@ export interface Config extends CustomConfig {
   title: string
   cli: string
   filename: string
-  projectType: string // in customConfig. include bee.config.json and beeConfig of package.json
+  projectType: string // in customConfig. include min.config.json and minConfig of package.json
   cwd: string
   prefix: string
   src: string

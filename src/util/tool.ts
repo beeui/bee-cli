@@ -203,11 +203,11 @@ export function buildNpmWXCs (pkgNames: string[]) {
     let pkgData = fs.readJsonSync(pkgPath)
 
     // 验证 bee-cli 开发的 小程序组件
-    if (!_.get(pkgData, 'beeConfig.component') && !_.get(pkgData, 'config.bee.component')) {
+    if (!_.get(pkgData, 'minConfig.component') && !_.get(pkgData, 'config.bee.component')) {
       return false
     }
 
-    let entryConfig: string[] = _.get(pkgData, 'beeConfig.entry')
+    let entryConfig: string[] = _.get(pkgData, 'minConfig.entry')
     if (_.isArray(entryConfig) && entryConfig.length) {
         entryConfig.forEach(entry => {
           entries.push(pkgName + '/' + entry)

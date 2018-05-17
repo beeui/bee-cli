@@ -1,6 +1,6 @@
 {
   "name": "@173/bee-cli",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "小程序组件化开发环境，提供 cli 支持",
   "main": "lib/index.js",
   "repository": {
