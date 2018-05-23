@@ -532,7 +532,7 @@ export function resolveDep (requestOptions: Request.Options): Request.Core {
     dest = path.join(config.cwd, destRelative)
 
     // 判定是否来自第三方NPM（NPM包中非WXC的都定位为第三方NPM包，主要是不走编译）
-    if (srcRelative.split('/')[0] === 'node_modules') {
+    if (srcRelative.split(path.sep)[0] === 'node_modules') {
       if (rawRequest.charAt(0) === '.') { // 引用相对路径，继承父级
         $isThreeNpm = isThreeNpm
       } else if (ext !== config.ext.wxc) { // 所有的NPM包中，引用路径扩展非.wxc，都定位第三方NPM包
