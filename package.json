@@ -1,6 +1,6 @@
 {
   "name": "@173/bee-cli",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "小程序组件化开发环境，提供 cli 支持",
   "main": "lib/index.js",
   "repository": {
@@ -39,9 +39,9 @@
     "@types/marked": "^0.3.0",
     "@types/node": "^8.0.15",
     "@types/recursive-readdir": "^1.2.28",
-    "tslint": "^5.7.0",
+    "tslint": "^5.9.1",
     "tslint-config-standard": "^6.0.1",
-    "typescript": "^2.4.2"
+    "typescript": "^2.6.2"
   },
   "dependencies": {
     "babel-core": "^6.25.0",
@@ -57,7 +57,7 @@
     "inquirer": "^3.3.0",
     "internal": "^1.0.8",
     "js-beautify": "^1.6.14",
-    "lerna": "^2.1.2",
+    "lerna": "^2.4.0",
     "less": "^2.7.2",
     "lodash": "^4.17.4",
     "marked": "^0.3.6",
@@ -68,6 +68,7 @@
     "postcss-bem": "^0.4.1",
     "postcss-calc": "^5.3.1",
     "precss": "^2.0.0",
-    "standard-version": "^4.2.0"
+    "standard-version": "^4.2.0",
+    "tslib": "^1.9.0"
   }
 }
