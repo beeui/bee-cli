@@ -82,6 +82,9 @@ $ bee update @173/wxc-loading
 
 ![微信群](https://ue.17173cdn.com/a/beeui/2018/img/wechatInfo.jpg)
 
+## Links ##
+
+[Documentation](https://beeui.github.io/bee-cli)
 
 ## 开源协议
 
