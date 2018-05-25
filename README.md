@@ -86,6 +86,13 @@ $ bee update @173/wxc-loading
 
 [Documentation](https://beeui.github.io/bee-cli)
 
+## 预览文档 ##
+
+	npm i docsify-cli -g
+	docsify serve docs
+
+访问 [http://localhost:3000](http://localhost:3000)
+
 ## 开源协议
 
 本项目基于 [MIT](http://opensource.org/licenses/MIT) License，请自由的享受、参与开源。
