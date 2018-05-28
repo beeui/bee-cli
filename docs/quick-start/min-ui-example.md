@@ -192,7 +192,7 @@
 
 接下来请进一步了解在 Bee组件库项目 里常用的功能
 
-  -  [新建组件](wxc-project/ne)
+  -  [新建组件](wxc-project/new.md)
   -  [调试组件](wxc-project/dev.md)
   -  [发布组件](wxc-project/publish.md)
 

@@ -149,7 +149,8 @@ $ bee dev
 
 接下来请进一步了解在 Bee小程序项目 里常用的功能
 
-[新建页面](app-project/new.md)
-[调试页面](app-project/dev.md)
-[编译项目](app-project/build.md)
+  - [新建页面](app-project/new.md)
+  - [调试页面](app-project/dev.md)
+  - [编译项目](app-project/build.md)
+  
 如果您想要在已有的小程序里使用，请移步到 [已有小程序项目](third-project/index.md) 的使用介绍
