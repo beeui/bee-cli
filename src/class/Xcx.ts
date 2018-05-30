@@ -136,7 +136,7 @@ export class Xcx {
   compile () {
     log.newline()
     this.clear()
-    this.copyProjectConfig()
+    // this.copyProjectConfig()
     this.appCompile()
     this.pagesCompile()
     this.imagesCompile()
