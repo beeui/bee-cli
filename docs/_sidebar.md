@@ -39,4 +39,5 @@
 * 预备知识
 	* [微信工具及文档汇总](prepare/wx.md)
 	* [代码高亮](prepare/high-light.md)
+	* [技术选型与权衡](prepare/compare.md)
 * [版本日志](changelog.md)

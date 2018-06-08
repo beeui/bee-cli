@@ -28,6 +28,7 @@
 
 - [min-cli](https://github.com/meili/min-cli) ★ -- 蘑菇街 Min 小程序组件化解决方案 
 - [mpvue](https://github.com/Meituan-Dianping/mpvue) ★  -- 美团 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
+- [Taro](https://github.com/nervjs/taro) -- 京东 多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信小程序、H5、React Native 等的应用。
 
 
 ## UI库 ##
